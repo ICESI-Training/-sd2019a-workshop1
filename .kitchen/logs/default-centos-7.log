@@ -1,0 +1,237 @@
+I, [2019-02-06T19:43:35.161117 #9982]  INFO -- default-centos-7: -----> Creating <default-centos-7>...
+I, [2019-02-06T19:43:35.546498 #9982]  INFO -- default-centos-7: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2019-02-06T19:43:35.610210 #9982]  INFO -- default-centos-7: ==> default: Box 'centos-7.1706_v0.2.0' could not be found. Attempting to find and install...
+I, [2019-02-06T19:43:35.610344 #9982]  INFO -- default-centos-7:     default: Box Provider: virtualbox
+I, [2019-02-06T19:43:35.610408 #9982]  INFO -- default-centos-7:     default: Box Version: >= 0
+I, [2019-02-06T19:43:35.704830 #9982]  INFO -- default-centos-7: ==> default: Box file was not detected as metadata. Adding it directly...
+I, [2019-02-06T19:43:35.704952 #9982]  INFO -- default-centos-7: ==> default: Adding box 'centos-7.1706_v0.2.0' (v0) for provider: virtualbox
+I, [2019-02-06T19:43:35.706094 #9982]  INFO -- default-centos-7:     default: Downloading: centos-7.1706_v0.2.0
+I, [2019-02-06T19:43:35.714281 #9982]  INFO -- default-centos-7: [K#<Thread:0x000055ee0ebcc9b8@/usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/batch_action.rb:71 run> terminated with exception (report_on_exception is true):
+I, [2019-02-06T19:43:35.714338 #9982]  INFO -- default-centos-7: /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/util/downloader.rb:259:in `execute_curl': An error occurred while downloading the remote file. The error (Vagrant::Errors::DownloaderError)
+I, [2019-02-06T19:43:35.714353 #9982]  INFO -- default-centos-7: message, if any, is reproduced below. Please fix this error and try
+I, [2019-02-06T19:43:35.714365 #9982]  INFO -- default-centos-7: again.
+I, [2019-02-06T19:43:35.714375 #9982]  INFO -- default-centos-7: 
+I, [2019-02-06T19:43:35.714396 #9982]  INFO -- default-centos-7: Couldn't open file /home/distribuidos/A00315328/sd2019a-workshop1/.kitchen/kitchen-vagrant/default-centos-7/centos-7.1706_v0.2.0
+I, [2019-02-06T19:43:35.714502 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/util/downloader.rb:147:in `download!'
+I, [2019-02-06T19:43:35.714517 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/box_add.rb:463:in `download'
+I, [2019-02-06T19:43:35.714528 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/box_add.rb:338:in `block in box_add'
+I, [2019-02-06T19:43:35.714539 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/box_add.rb:330:in `each'
+I, [2019-02-06T19:43:35.714551 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/box_add.rb:330:in `box_add'
+I, [2019-02-06T19:43:35.714562 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/box_add.rb:146:in `add_direct'
+I, [2019-02-06T19:43:35.714574 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/box_add.rb:120:in `call'
+I, [2019-02-06T19:43:35.714585 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/warden.rb:34:in `call'
+I, [2019-02-06T19:43:35.714595 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builder.rb:116:in `call'
+I, [2019-02-06T19:43:35.714605 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/runner.rb:66:in `block in run'
+I, [2019-02-06T19:43:35.714778 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/util/busy.rb:19:in `busy'
+I, [2019-02-06T19:43:35.714812 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/runner.rb:66:in `run'
+I, [2019-02-06T19:43:35.714833 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/handle_box.rb:82:in `handle_box'
+I, [2019-02-06T19:43:35.714861 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/handle_box.rb:42:in `block in call'
+I, [2019-02-06T19:43:35.714875 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/handle_box.rb:36:in `synchronize'
+I, [2019-02-06T19:43:35.714936 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/handle_box.rb:36:in `call'
+I, [2019-02-06T19:43:35.714949 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/warden.rb:34:in `call'
+I, [2019-02-06T19:43:35.714961 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/warden.rb:95:in `block in finalize_action'
+I, [2019-02-06T19:43:35.714972 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/warden.rb:34:in `call'
+I, [2019-02-06T19:43:35.714984 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builder.rb:116:in `call'
+I, [2019-02-06T19:43:35.714996 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/runner.rb:66:in `block in run'
+I, [2019-02-06T19:43:35.715008 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/util/busy.rb:19:in `busy'
+I, [2019-02-06T19:43:35.715020 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/runner.rb:66:in `run'
+I, [2019-02-06T19:43:35.715032 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/call.rb:53:in `call'
+I, [2019-02-06T19:43:35.715044 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/warden.rb:34:in `call'
+I, [2019-02-06T19:43:35.715055 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/plugins/providers/virtualbox/action/check_virtualbox.rb:17:in `call'
+I, [2019-02-06T19:43:35.715065 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/warden.rb:34:in `call'
+I, [2019-02-06T19:43:35.715076 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builder.rb:116:in `call'
+I, [2019-02-06T19:43:35.715087 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/runner.rb:66:in `block in run'
+I, [2019-02-06T19:43:35.715099 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/util/busy.rb:19:in `busy'
+I, [2019-02-06T19:43:35.715111 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/runner.rb:66:in `run'
+I, [2019-02-06T19:43:35.715123 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/machine.rb:227:in `action_raw'
+I, [2019-02-06T19:43:35.715134 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/machine.rb:202:in `block in action'
+I, [2019-02-06T19:43:35.715144 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/environment.rb:592:in `lock'
+I, [2019-02-06T19:43:35.715188 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/machine.rb:188:in `call'
+I, [2019-02-06T19:43:35.715201 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/machine.rb:188:in `action'
+I, [2019-02-06T19:43:35.715215 #9982]  INFO -- default-centos-7: 	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/batch_action.rb:82:in `block (2 levels) in run'
+I, [2019-02-06T19:43:35.717968 #9982]  INFO -- default-centos-7: An error occurred while downloading the remote file. The error
+I, [2019-02-06T19:43:35.717998 #9982]  INFO -- default-centos-7: message, if any, is reproduced below. Please fix this error and try
+I, [2019-02-06T19:43:35.718011 #9982]  INFO -- default-centos-7: again.
+I, [2019-02-06T19:43:35.718021 #9982]  INFO -- default-centos-7: 
+I, [2019-02-06T19:43:35.718032 #9982]  INFO -- default-centos-7: Couldn't open file /home/distribuidos/A00315328/sd2019a-workshop1/.kitchen/kitchen-vagrant/default-centos-7/centos-7.1706_v0.2.0
+E, [2019-02-06T19:43:35.733826 #9982] ERROR -- default-centos-7: Create failed on instance <default-centos-7>.
+E, [2019-02-06T19:43:35.733954 #9982] ERROR -- default-centos-7: ------Exception-------
+E, [2019-02-06T19:43:35.733970 #9982] ERROR -- default-centos-7: Class: Kitchen::ShellOut::ShellCommandFailed
+E, [2019-02-06T19:43:35.733980 #9982] ERROR -- default-centos-7: Message: Expected process to exit with [0], but received '1'
+---- Begin output of vagrant up --no-provision --provider virtualbox ----
+STDOUT: Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Box 'centos-7.1706_v0.2.0' could not be found. Attempting to find and install...
+    default: Box Provider: virtualbox
+    default: Box Version: >= 0
+==> default: Box file was not detected as metadata. Adding it directly...
+==> default: Adding box 'centos-7.1706_v0.2.0' (v0) for provider: virtualbox
+    default: Downloading: centos-7.1706_v0.2.0
+[K
+STDERR: #<Thread:0x000055ee0ebcc9b8@/usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/batch_action.rb:71 run> terminated with exception (report_on_exception is true):
+/usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/util/downloader.rb:259:in `execute_curl': An error occurred while downloading the remote file. The error (Vagrant::Errors::DownloaderError)
+message, if any, is reproduced below. Please fix this error and try
+again.
+
+Couldn't open file /home/distribuidos/A00315328/sd2019a-workshop1/.kitchen/kitchen-vagrant/default-centos-7/centos-7.1706_v0.2.0
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/util/downloader.rb:147:in `download!'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/box_add.rb:463:in `download'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/box_add.rb:338:in `block in box_add'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/box_add.rb:330:in `each'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/box_add.rb:330:in `box_add'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/box_add.rb:146:in `add_direct'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/box_add.rb:120:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/warden.rb:34:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builder.rb:116:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/runner.rb:66:in `block in run'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/util/busy.rb:19:in `busy'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/runner.rb:66:in `run'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/handle_box.rb:82:in `handle_box'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/handle_box.rb:42:in `block in call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/handle_box.rb:36:in `synchronize'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/handle_box.rb:36:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/warden.rb:34:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/warden.rb:95:in `block in finalize_action'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/warden.rb:34:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builder.rb:116:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/runner.rb:66:in `block in run'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/util/busy.rb:19:in `busy'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/runner.rb:66:in `run'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/call.rb:53:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/warden.rb:34:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/plugins/providers/virtualbox/action/check_virtualbox.rb:17:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/warden.rb:34:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builder.rb:116:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/runner.rb:66:in `block in run'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/util/busy.rb:19:in `busy'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/runner.rb:66:in `run'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/machine.rb:227:in `action_raw'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/machine.rb:202:in `block in action'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/environment.rb:592:in `lock'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/machine.rb:188:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/machine.rb:188:in `action'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/batch_action.rb:82:in `block (2 levels) in run'
+An error occurred while downloading the remote file. The error
+message, if any, is reproduced below. Please fix this error and try
+again.
+
+Couldn't open file /home/distribuidos/A00315328/sd2019a-workshop1/.kitchen/kitchen-vagrant/default-centos-7/centos-7.1706_v0.2.0
+---- End output of vagrant up --no-provision --provider virtualbox ----
+Ran vagrant up --no-provision --provider virtualbox returned 1
+E, [2019-02-06T19:43:35.734001 #9982] ERROR -- default-centos-7: ----------------------
+E, [2019-02-06T19:43:35.734011 #9982] ERROR -- default-centos-7: ------Backtrace-------
+E, [2019-02-06T19:43:35.734019 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/shell_out.rb:71:in `rescue in run_command'
+E, [2019-02-06T19:43:35.734027 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/shell_out.rb:58:in `run_command'
+E, [2019-02-06T19:43:35.734036 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/kitchen-vagrant-1.3.3/lib/kitchen/driver/vagrant.rb:452:in `run_command'
+E, [2019-02-06T19:43:35.734044 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/kitchen-vagrant-1.3.3/lib/kitchen/driver/vagrant.rb:399:in `run'
+E, [2019-02-06T19:43:35.734052 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/kitchen-vagrant-1.3.3/lib/kitchen/driver/vagrant.rb:483:in `run_vagrant_up'
+E, [2019-02-06T19:43:35.734060 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/kitchen-vagrant-1.3.3/lib/kitchen/driver/vagrant.rb:109:in `create'
+E, [2019-02-06T19:43:35.734068 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:484:in `public_send'
+E, [2019-02-06T19:43:35.734078 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:484:in `block in perform_action'
+E, [2019-02-06T19:43:35.734087 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:548:in `block in synchronize_or_call'
+E, [2019-02-06T19:43:35.734095 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:546:in `synchronize'
+E, [2019-02-06T19:43:35.734103 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:546:in `synchronize_or_call'
+E, [2019-02-06T19:43:35.734157 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:513:in `block in action'
+E, [2019-02-06T19:43:35.734171 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/2.5.0/benchmark.rb:293:in `measure'
+E, [2019-02-06T19:43:35.734179 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:512:in `action'
+E, [2019-02-06T19:43:35.734187 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:484:in `perform_action'
+E, [2019-02-06T19:43:35.734195 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:394:in `create_action'
+E, [2019-02-06T19:43:35.734202 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:382:in `block (2 levels) in transition_to'
+E, [2019-02-06T19:43:35.734210 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/lifecycle_hooks.rb:45:in `run_with_hooks'
+E, [2019-02-06T19:43:35.734218 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:381:in `block in transition_to'
+E, [2019-02-06T19:43:35.734225 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:380:in `each'
+E, [2019-02-06T19:43:35.734233 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:380:in `transition_to'
+E, [2019-02-06T19:43:35.734240 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:129:in `create'
+E, [2019-02-06T19:43:35.734248 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:197:in `public_send'
+E, [2019-02-06T19:43:35.734255 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2019-02-06T19:43:35.734263 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2019-02-06T19:43:35.734270 #9982] ERROR -- default-centos-7: ----End Backtrace-----
+E, [2019-02-06T19:43:35.734278 #9982] ERROR -- default-centos-7: ---Nested Exception---
+E, [2019-02-06T19:43:35.734285 #9982] ERROR -- default-centos-7: Class: Mixlib::ShellOut::ShellCommandFailed
+E, [2019-02-06T19:43:35.734292 #9982] ERROR -- default-centos-7: Message: Expected process to exit with [0], but received '1'
+---- Begin output of vagrant up --no-provision --provider virtualbox ----
+STDOUT: Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Box 'centos-7.1706_v0.2.0' could not be found. Attempting to find and install...
+    default: Box Provider: virtualbox
+    default: Box Version: >= 0
+==> default: Box file was not detected as metadata. Adding it directly...
+==> default: Adding box 'centos-7.1706_v0.2.0' (v0) for provider: virtualbox
+    default: Downloading: centos-7.1706_v0.2.0
+[K
+STDERR: #<Thread:0x000055ee0ebcc9b8@/usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/batch_action.rb:71 run> terminated with exception (report_on_exception is true):
+/usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/util/downloader.rb:259:in `execute_curl': An error occurred while downloading the remote file. The error (Vagrant::Errors::DownloaderError)
+message, if any, is reproduced below. Please fix this error and try
+again.
+
+Couldn't open file /home/distribuidos/A00315328/sd2019a-workshop1/.kitchen/kitchen-vagrant/default-centos-7/centos-7.1706_v0.2.0
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/util/downloader.rb:147:in `download!'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/box_add.rb:463:in `download'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/box_add.rb:338:in `block in box_add'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/box_add.rb:330:in `each'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/box_add.rb:330:in `box_add'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/box_add.rb:146:in `add_direct'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/box_add.rb:120:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/warden.rb:34:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builder.rb:116:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/runner.rb:66:in `block in run'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/util/busy.rb:19:in `busy'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/runner.rb:66:in `run'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/handle_box.rb:82:in `handle_box'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/handle_box.rb:42:in `block in call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/handle_box.rb:36:in `synchronize'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/handle_box.rb:36:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/warden.rb:34:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/warden.rb:95:in `block in finalize_action'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/warden.rb:34:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builder.rb:116:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/runner.rb:66:in `block in run'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/util/busy.rb:19:in `busy'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/runner.rb:66:in `run'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builtin/call.rb:53:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/warden.rb:34:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/plugins/providers/virtualbox/action/check_virtualbox.rb:17:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/warden.rb:34:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/builder.rb:116:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/runner.rb:66:in `block in run'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/util/busy.rb:19:in `busy'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/action/runner.rb:66:in `run'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/machine.rb:227:in `action_raw'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/machine.rb:202:in `block in action'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/environment.rb:592:in `lock'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/machine.rb:188:in `call'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/machine.rb:188:in `action'
+	from /usr/share/rubygems-integration/all/gems/vagrant-2.0.2/lib/vagrant/batch_action.rb:82:in `block (2 levels) in run'
+An error occurred while downloading the remote file. The error
+message, if any, is reproduced below. Please fix this error and try
+again.
+
+Couldn't open file /home/distribuidos/A00315328/sd2019a-workshop1/.kitchen/kitchen-vagrant/default-centos-7/centos-7.1706_v0.2.0
+---- End output of vagrant up --no-provision --provider virtualbox ----
+Ran vagrant up --no-provision --provider virtualbox returned 1
+E, [2019-02-06T19:43:35.734310 #9982] ERROR -- default-centos-7: ----------------------
+E, [2019-02-06T19:43:35.734319 #9982] ERROR -- default-centos-7: ------Backtrace-------
+E, [2019-02-06T19:43:35.734326 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/shell_out.rb:71:in `rescue in run_command'
+E, [2019-02-06T19:43:35.734334 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/shell_out.rb:58:in `run_command'
+E, [2019-02-06T19:43:35.734341 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/kitchen-vagrant-1.3.3/lib/kitchen/driver/vagrant.rb:452:in `run_command'
+E, [2019-02-06T19:43:35.734349 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/kitchen-vagrant-1.3.3/lib/kitchen/driver/vagrant.rb:399:in `run'
+E, [2019-02-06T19:43:35.734356 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/kitchen-vagrant-1.3.3/lib/kitchen/driver/vagrant.rb:483:in `run_vagrant_up'
+E, [2019-02-06T19:43:35.734363 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/kitchen-vagrant-1.3.3/lib/kitchen/driver/vagrant.rb:109:in `create'
+E, [2019-02-06T19:43:35.734371 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:484:in `public_send'
+E, [2019-02-06T19:43:35.734378 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:484:in `block in perform_action'
+E, [2019-02-06T19:43:35.734387 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:548:in `block in synchronize_or_call'
+E, [2019-02-06T19:43:35.734395 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:546:in `synchronize'
+E, [2019-02-06T19:43:35.734403 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:546:in `synchronize_or_call'
+E, [2019-02-06T19:43:35.734410 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:513:in `block in action'
+E, [2019-02-06T19:43:35.734418 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/2.5.0/benchmark.rb:293:in `measure'
+E, [2019-02-06T19:43:35.734425 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:512:in `action'
+E, [2019-02-06T19:43:35.734432 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:484:in `perform_action'
+E, [2019-02-06T19:43:35.734440 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:394:in `create_action'
+E, [2019-02-06T19:43:35.734449 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:382:in `block (2 levels) in transition_to'
+E, [2019-02-06T19:43:35.734458 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/lifecycle_hooks.rb:45:in `run_with_hooks'
+E, [2019-02-06T19:43:35.734466 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:381:in `block in transition_to'
+E, [2019-02-06T19:43:35.734473 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:380:in `each'
+E, [2019-02-06T19:43:35.734481 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:380:in `transition_to'
+E, [2019-02-06T19:43:35.734488 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:129:in `create'
+E, [2019-02-06T19:43:35.734496 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:197:in `public_send'
+E, [2019-02-06T19:43:35.734503 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2019-02-06T19:43:35.734511 #9982] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2019-02-06T19:43:35.734520 #9982] ERROR -- default-centos-7: ----End Backtrace-----
